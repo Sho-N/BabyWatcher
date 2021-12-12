@@ -69,11 +69,11 @@ docker/run.sh
 cd python/training/detection/ssd
 python3 train_ssd.py
  --dataset-type=voc
- --data=data/darts_score_detection
- --model-dir=models/darts_score_detection
+ --data=data/BabyWatcher/merged_dataset/
+ --model-dir=models/BabyWatcher/
  --batch-size=16
  --workers=1
- --epochs=200
+ --epochs=100
 ```
 
 After transfer learning, convert the model to onnx format.
