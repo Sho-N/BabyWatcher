@@ -93,7 +93,8 @@ Data expansion
 * and other ways...
 
 Alerts
-* I want to be notified in some way after a certain period of time in a prone position.
+* I want to notify in some way after a certain period of time in a prone position.
+* I want to notify before baby goes out of camera frame. This is the main purpose why I use detection, not classification.
 
 
 # References
