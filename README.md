@@ -50,7 +50,8 @@ To prepare data for training, I took a video of my little baby with a camera. We
 
 ## Annotations
 We used CVAT as an annotation tool. It is easy to annotate even videos and can be exported in Pascal VOC format.  
-＜CVAT画面画像＞
+![image](https://user-images.githubusercontent.com/94183002/145717191-976ce64b-0582-4ad7-896e-dc9d35830a04.png)
+
 
 ## Merge datasets
 For easy training, you can merge multiple datasets in Pascal VOC format into one. After that, the programm automatically split the dataset into training/validation.
@@ -58,11 +59,6 @@ Please set multiple dataset created by CVAT in "src_dir".
 ```
 merge_datasets.py --src_dir=./data/multiple_dataset --dst_dir=./data/merged_dataset
 ```
-
-＜やること＞
-	• Pythonファイル化
-	• ラベルを自動作成
-	• src_folder内のフォルダ一覧を取得
 
 
 ## Train
