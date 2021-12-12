@@ -78,7 +78,7 @@ python3 train_ssd.py
 
 After transfer learning, convert the model to onnx format.
 ```
-python3 onnx_export.py --model-dir='models/darts_score_detection'
+python3 onnx_export.py --model-dir='models/BabyWatcher/'
 ```
 
 
