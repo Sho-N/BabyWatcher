@@ -1,0 +1,1 @@
+detectnet --model=/BabyWatcher/models/BabyWatcher/ssd-mobilenet.onnx --labels=/BabyWatcher/models/BabyWatcher/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes /BabyWatcher/data/movies/sample.mp4
