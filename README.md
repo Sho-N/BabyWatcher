@@ -25,7 +25,7 @@ Before starting this project, please set up your Jetson Nano according to the fo
 `git clone https://github.com/Sho-N/BabyWatcher.git`
 
 ## Run
-This project runs on the docker container as described in [Hello AI World](https://github.com/dusty-nv/jetson-inference/blob/master/docs/detectnet-console-2.md)
+This project runs on the docker container as described in [Hello AI World](https://github.com/dusty-nv/jetson-inference/blob/master/docs/detectnet-console-2.md).  
 Please run the following steps.
 ``` bash
 # run the container
@@ -54,9 +54,9 @@ We used CVAT as an annotation tool. It is easy to annotate even videos and can b
 
 ## Merge datasets
 For easy training, you can merge multiple datasets in Pascal VOC format into one. After that, the programm automatically split the dataset into training/validation.
-Please set multiple dataset in "src_folder".
+Please set multiple dataset created by CVAT in "src_dir".
 ```
-merge_datasets.py --src_folder=./data/multiple_dataset --dst_folder=./data/merged_dataset
+merge_datasets.py --src_dir=./data/multiple_dataset --dst_dir=./data/merged_dataset
 ```
 
 ＜やること＞
