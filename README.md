@@ -36,7 +36,7 @@ $ cd ~/jetson-inference
 $ docker/run.sh --volume ~/BabyWatcher:/BabyWatcher
 
 # run sample in the container
-$ /BabyWatcher/inference_sample.sh 
+$ sh /BabyWatcher/inference_sample.sh 
 
 # set a video to monitor your baby
 ```
