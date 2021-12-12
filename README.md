@@ -61,7 +61,7 @@ merge_datasets.py --src_dir=./data/multiple_dataset --dst_dir=./data/merged_data
 ```
 
 
-## Train
+# Train
 I ran a transfer learning on SSD-Mobilenet by using the merged dataset. However, it took too much time, so the model on GitHub have learned on a Google Colaboratory.
 ```
 cd jetson-inference
@@ -82,7 +82,7 @@ python3 onnx_export.py --model-dir='models/darts_score_detection'
 ```
 
 
-## Future Direction
+# Future Direction
 Prepare a lot of learning data
 * Children grow up quickly
 * Need data from other children
@@ -95,3 +95,6 @@ Data expansion
 Alerts
 * I want to be notified in some way after a certain period of time in a prone position.
 
+
+# References
+* [dusty-nv/jetson-inference](https://github.com/dusty-nv/jetson-inference)
