@@ -22,24 +22,21 @@ Before starting this project, please set up your Jetson Nano according to the fo
 * Run the hello docker container 
 
 ## Clone github
-`git clone https://github.com/Sho-N/BabyWatcher.git`
+```bash
+$ cd
+$ git clone https://github.com/Sho-N/BabyWatcher.git
+```
 
 ## Run
 This project runs on the docker container as described in [Hello AI World](https://github.com/dusty-nv/jetson-inference/blob/master/docs/detectnet-console-2.md).  
-Please run the following steps.
+Show how to run the sample.
 ``` bash
 # run the container
 $ cd ~/jetson-inference
 $ docker/run.sh --volume ~/BabyWatcher:/BabyWatcher
 
-# run these commands in the container
-$ python3 BabyWatcher.py 
-   --model=./models/ssd/ssd-mobilenet.onnx
-   --labels=./models/ssd/labels.txt
-   --input-blob=input_0
-   --output-cvg=scores
-   --output-bbox=boxes
-   /dev/video0
+# run sample in the container
+$ /BabyWatcher/inference_sample.sh 
 
 # set a video to monitor your baby
 ```
