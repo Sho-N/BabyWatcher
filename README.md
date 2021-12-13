@@ -4,7 +4,8 @@ I have three children. The yongest child is still a baby, but I don't have time 
 
 ## About my project
 I have created an application that monitors wheter the baby stays prone or supine on my behalf. This will make every day safe for the baby.  
-＜動画＞
+![Videotogif](https://user-images.githubusercontent.com/94183002/145854176-cdd3c6c4-6128-4479-866e-83a504449a31.gif)  
+[Youtube](https://youtu.be/1ZFuGasA1_s)
 
 # How to run
 ## Requirements
