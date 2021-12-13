@@ -33,7 +33,7 @@ Show how to run the sample.
 ``` bash
 # run the container
 $ cd ~/jetson-inference
-$ docker/run.sh --volume ~/BabyWatcher:/BabyWatcher
+$ docker/run.sh --volume ~/jetson-inference/BabyWatcher:/BabyWatcher
 
 # run sample in the container
 $ sh /BabyWatcher/inference_sample.sh 
